@@ -1,4 +1,4 @@
-TAG390 = kyclark/biofx_python_3.9.0:0.1.0
+TAG390!= kyclark/biofx_python_3.9.0:0.1.0
 TAG391 = kyclark/biofx_python_3.9.1:0.1.0
 TAG38 = kyclark/biofx_python_3.8:0.1.0
 TAG310 = kyclark/biofx_python_3.10:0.1.0
@@ -55,3 +55,4 @@ push391:
 
 push310: 
 	$(DOCKER) push $(TAG310)
+ 
